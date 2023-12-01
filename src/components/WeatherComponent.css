@@ -1,0 +1,89 @@
+.weather-container {
+  background: url("https://wallpaperbat.com/img/512170-white-clouds-free-image.jpg") center/cover no-repeat;
+  padding: 20px;
+  padding-right: 80px;
+  padding-left: 80px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-height:fit-content;
+  text-align: center; 
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px;
+  background-color: rgb(29, 63, 105);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-info {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.weather-info h2 {
+  color: rgb(29, 63, 105);
+}
+
+.first-day {
+  background-color: rgb(29, 63, 105);
+  padding: 1px;
+  padding-right: 100px;
+  padding-left: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.first-day img {
+  width: 80px;
+  height: 80px;
+  margin-top: 5px;
+}
+
+.upcoming-days {
+  background-color: rgb(29, 63, 105);
+  padding: 1px;
+  padding-right: 80px;
+  padding-left: 80px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.upcoming-days h3 {
+  color: #f6f3f3;
+}
+
+.upcoming-days ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.upcoming-days li {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 1px;
+  color: #f6f3f3;
+}
+
+.upcoming-days li img {
+  width: 50px;
+  height: 50px; 
+  margin-right: 20px;
+}
+
